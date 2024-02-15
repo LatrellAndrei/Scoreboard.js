@@ -1,0 +1,56 @@
+body {
+  background: #7cb46b;
+}
+.scoreboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.scoreboard_name,
+.scoreboard_score {
+  padding: 15px;
+}
+
+.scoreboard_name {
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  font-size: 25px;
+}
+.scoreboard_name-one {
+  color: #009578;
+}
+
+.scoreboard_name-two {
+  color: #2d0095;
+}
+
+.scoreboard_score {
+  font-size: 2.5em;
+}
+
+.scoreboard_controls {
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.scoreboard-control-button {
+  flex-grow: 1;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-size: 2.5em;
+  padding: 10px;
+}
+
+.scoreboard-control-button:hover {
+  background: #ddd;
+}
+
+.scoreboard-control-button:active {
+  background: #ccc;
+}
